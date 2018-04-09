@@ -2,13 +2,58 @@
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
-    <title>平成to新元号元年がやってきました！</title>
+    <title>Heisei2ShinGengou</title>
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css">
+    <link href="style.css" rel="stylesheet">
 </head>
 <body>
-    <h1>平成to新元号元年がやってきました！</h1>
-    <p>平成ジャンプは平成to新元号ジャンプになるのか？</p>
-    <p>平成ノブシコブシは平成to新元号ノブシコブシになるのか？</p>
-    楽しみですね。
-    <script src="https://rawgit.com/enoatu/Heisei2ShinGengou/master/main.js"></script>
+<div id="wrap">
+    <h1>Heisei2ShinGengouの使用法</h1>
+    <br>
+    <h2>Heisei2ShinGengouとは</h2>
+    <p>新元号が発表された時に、指定箇所を新元号に書き換えてくれるJSです。</p>
+    <p>新元号が発表されたあとに、今までのブログ等をさかのぼって新元号に変える手間がなくなります。</p>
+    <br>
+    <h2>使用法</h2>
+    <p>1.以下をコピーします。<br><span id="copyTarget">&lt;script src="https://rawgit.com/enoatu/Heisei2ShinGengou/master/main.js"&gt;&lt;/script&gt;
+</span><button id="copyBtn">urlコピー</button>
+    </p>
+    <br>
+    <p>2.コピーしたものをbodyタグに配置し、使えるようにします。</p>
+    <br>
+    <p>3.次に、新元号に置換したい場所に平成to新元号元年と入力します</p>
+    <br>
+    <div id="wrapin2">
+        <h3>今日は平成to新元号元年、5月1日です！</h3>
+        <p>平成ジャンプは平成to新元号ジャンプになるのか？</p>
+        <p>平成ノブシコブシは平成to新元号ノブシコブシになるのか？</p>
+        楽しみですね。
+    </div>
+    <br>
+    <p>↓↓↓↓↓↓↓↓↓↓↓Heisei2ShinGengou適用時↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓</p>
+    <br>
+    <div id="wrapin22">
+        <h3>今日は新元号（作成時は不明）元年、5月1日です！</h3>
+        <p>平成ジャンプは新元号（作成時は不明）ジャンプになるのか？</p>
+        <p>平成ノブシコブシは新元号（作成時は不明）ノブシコブシになるのか？</p>
+        楽しみですね。
+    </div>
+    <br>
+    <p>↓↓↓↓↓↓↓↓↓↓↓↓↓新元号が安始だった場合↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓</p>
+    <br>
+    <div id="wrapin23">
+        <h3>今日は安始元年、5月1日です！</h3>
+        <p>平成ジャンプは安始ジャンプになるのか？</p>
+        <p>平成ノブシコブシは安始ノブシコブシになるのか？</p>
+        楽しみですね。
+    </div>
+
+
+    <a href="sample.html">sample</a>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" rel="stylesheet"/>
+    <script src="copy.js"></script>
+</div>
 </body>
 </html>
